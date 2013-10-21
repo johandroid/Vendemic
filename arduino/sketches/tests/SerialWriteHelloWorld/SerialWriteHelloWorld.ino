@@ -17,7 +17,7 @@ void setup()
 uint16_t i = 254;
 void loop() // run over and over
 {
-  if (i > 512) {
+  if (i > 511) {
     return;  
   }
   
